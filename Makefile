@@ -20,7 +20,6 @@ FUSE_OPTS       ?= -incremental
 
 .DEFAULT_GOAL := $(BITFILE)
 .PHONY: clean
-.SILENT:
 
 RUN = cd $O && $(ISE_PATH)/$1
 
